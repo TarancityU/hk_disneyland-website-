@@ -1,0 +1,181 @@
+
+#header{
+
+    text-align: center;
+    border: 2px solid rgb(185, 178, 178);
+    border-radius: 5px;
+
+}
+#header>div{
+    display: inline-block;
+    vertical-align: middle;
+}
+#welcome{
+    text-align: center;
+    border: 2px solid gray;
+    box-shadow: 5px 5px rgb(203, 201, 201);
+    border-radius: 5px;
+    padding: 5px;
+}
+#welcome>p{
+    
+    text-transform:uppercase ;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#menu{
+    float: left;
+    width: 80%;
+    border: 2px solid gray;
+}
+
+#table0{
+    float: right;
+    width: 22%;
+    border: 2px solid gray ;
+    border-radius: 5px;
+}
+
+
+.menu_label{
+
+    width: 30.33%;
+    display: inline;
+    transition: background-color 0.3s ease;
+    background-color: rgb(199, 192, 192);
+    border: 2px solid gray;
+    float: left;
+    text-align: center;
+    
+}
+
+#ticket_label:hover,#hotel_label:hover,#dining_label:hover{
+    background-color: white;
+}
+
+
+.menu_tab{
+    display: none;
+
+}
+form img {
+    float: left;
+    width: 39%;
+    height: fit-content;
+    margin-right: 1.2%;
+}
+form input {
+    width: 40%;
+
+    display: block; 
+}
+
+footer{
+    /* clear: both; */
+}
+
+#order_table{
+    /* clear: both; */
+    float:right;
+    width: 40%;
+    position: absolute;
+    /* left:101%; */
+    top:2%;
+    right: -2%;
+    border: 2px solid gray;
+    padding: 9px;
+    box-shadow: 3px 6px 3px 6px #dad5d5;  
+}
+
+.description{
+    text-align: left;
+
+}
+#ticket_tab{
+    width: 91.5%;
+}
+
+#hotel_tab{
+    width: 91.5%;
+}
+#dining_tab{
+    width: 91.5%;
+}
+
+
+#table0>h2,h4{
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+table,th,td{
+    border: solid gray 2px;
+    width: 90%;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: #dbd6d6;
+}
+.description{
+    width: 60%;
+}
+.quantity{
+    text-align: right;
+    width: 40%;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#undo{
+    font-weight: bold;
+    position: relative;
+    left:45%;
+    color: black;
+}
+
+#total{
+    text-align: right;
+}
+
+
+
+
+#dining_tab>form , #hotel_tab>form ,#ticket_tab>form {
+    float: left;
+
+    display: inline-block;
+    width: 33%;
+    text-align: left;
+}
+
+#ticket_label:hover ~ #ticket_tab , #ticket_tab:hover{
+    display: inline-block;
+    border: 2px solid gray;
+}
+
+#hotel_label:hover ~ #hotel_tab , #hotel_tab:hover{
+    display: inline-block;
+    border: 2px solid gray;
+}
+
+#dining_label:hover ~ #dining_tab , #dining_tab:hover{
+    display: inline-block;
+    border: 2px solid gray;
+}
+
+#order_body{
+    display: flex;
+    flex-direction: row;
+}
+
+footer{
+    clear: both;
+    border: 2px solid rgb(185, 178, 178);
+    border-radius: 5px;
+    margin-top: 10%;
+}

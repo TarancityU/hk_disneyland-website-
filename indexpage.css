@@ -1,0 +1,113 @@
+#dvideo{
+    vertical-align: middle;
+    text-align: center;
+    border: 2px solid gray;
+    box-shadow: 5px 5px rgb(203, 201, 201);
+    border-radius: 5px;
+    padding: 5px;
+    border-spacing: 0cap;
+    margin: 10px;
+}
+
+#messagee{
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 4%;
+}
+
+
+#header{
+
+    text-align: center;
+    border: 2px solid rgb(185, 178, 178);
+    border-radius: 5px;
+
+
+
+}
+
+#header>div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+#welcome{
+    text-align: center;
+    border: 2px solid gray;
+    box-shadow: 5px 5px rgb(203, 201, 201);
+    border-radius: 5px;
+    padding: 5px;
+}
+#welcome>p{
+    
+    text-transform:uppercase ;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#info{
+    float:left;
+    width: 45%;
+    border: 2px solid gray;
+    box-shadow: 5px 5px rgb(203, 201, 201);
+    border-radius: 5px;
+}
+#dvideo>#Video1{
+    width:500px;
+    height:600px;
+}
+#promo{
+    float: right;
+    width: 54%;
+    border: 2px solid gray;
+    box-shadow: 5px 5px rgb(203, 201, 201);
+    border-radius: 5px;
+}
+
+#form{
+    /* clear : both; */
+    float: right;
+    width: 54%;
+    position: relative;
+    margin-bottom: 6px;
+    margin-top: 7px;
+    text-align: center;
+    
+}
+
+.form_content {
+    text-align: left;
+    position: relative;
+}
+.form_content label{
+    position: relative;
+    left: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.form_content > input, .form_content > select {
+    box-sizing: border-box;
+    position: absolute;
+    width: 40%;
+    right: 25%;
+    height: 20px;
+}
+footer{
+    clear: both;
+    border: 2px solid rgb(185, 178, 178);
+    border-radius: 5px;
+}
+
+legend{
+    text-align: center;
+}
+
+.resetbutton  {
+    width: 28%;
+}
+
+.submitbutton{
+    width: 28%;
+    margin-right: 4%;
+}
